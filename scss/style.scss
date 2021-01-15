@@ -13,10 +13,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
-}
-
 a {
   color: inherit;
 }
@@ -24,7 +20,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: $link-primary;
+  color: $link-secondary;
 }
 
 img {
@@ -42,8 +38,20 @@ img {
   gap: 20px;
 }
 
+.hero {
+  p,
+  a {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+}
+
 .secondary {
   margin-bottom: 50px;
+  p,
+  a {
+    font-size: 1.25rem;
+  }
 }
 
 .content {

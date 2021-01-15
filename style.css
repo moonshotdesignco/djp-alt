@@ -17,10 +17,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
-}
-
 a {
   color: inherit;
 }
@@ -28,7 +24,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #f03010;
+  color: #f05030;
 }
 
 img {
@@ -49,8 +45,19 @@ img {
   gap: 20px;
 }
 
+.hero p,
+.hero a {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 .secondary {
   margin-bottom: 50px;
+}
+
+.secondary p,
+.secondary a {
+  font-size: 1.25rem;
 }
 
 .content {
