@@ -11,20 +11,63 @@ body {
 body {
   color: $white;
   font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 4px;
+  @media (min-width: 600px) {
+    letter-spacing: 8px;
+  }
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus,
-a:active {
+a:active,
+button:hover,
+button:focus,
+button:active {
   color: $link-secondary;
 }
 
 img {
   width: 100%;
+}
+
+.undecorate {
+  background: none;
+  border: none;
+  text-transform: inherit;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.menu {
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.menu-closed {
+  display: none;
+  height: 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#menuList {
+  margin-top: 1rem;
+  border-left: 1px solid $white;
 }
 
 .container {
@@ -41,7 +84,7 @@ img {
 .hero {
   p,
   a {
-    font-size: 2rem;
+    font-size: 1rem;
     text-transform: uppercase;
   }
 }
@@ -50,7 +93,8 @@ img {
   margin-bottom: 50px;
   p,
   a {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
   }
 }
 
