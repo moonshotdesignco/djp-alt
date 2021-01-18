@@ -42,6 +42,10 @@ img {
   width: 100%;
 }
 
+.dinblock {
+  display: inline-block;
+}
+
 .undecorate {
   background: none;
   border: none;
@@ -61,6 +65,14 @@ img {
   margin-bottom: 0.25rem;
 }
 
+#menuBtn {
+  letter-spacing: normal;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
 .menu-closed {
   display: none;
   height: 0px;
@@ -68,6 +80,11 @@ img {
 
 .pointer {
   cursor: pointer;
+}
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 #menuList {

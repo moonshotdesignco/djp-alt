@@ -35,6 +35,10 @@ img {
   width: 100%;
 }
 
+.dinblock {
+  display: inline-block;
+}
+
 .undecorate {
   background: none;
   border: none;
@@ -56,6 +60,11 @@ img {
   }
 }
 
+#menuBtn {
+  letter-spacing: normal;
+  transition: transform 0.2s linear;
+}
+
 .menu-closed {
   display: none;
   height: 0px;
@@ -63,6 +72,10 @@ img {
 
 .pointer {
   cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(90deg);
 }
 
 #menuList {
