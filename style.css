@@ -158,6 +158,11 @@ img {
   margin-bottom: auto;
 }
 
+.gallery-column img:hover {
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
 .footer {
   margin-top: 50px;
   font-size: 0.75rem;
