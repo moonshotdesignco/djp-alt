@@ -142,6 +142,33 @@ img {
   }
 }
 
+#djp-email-form {
+  border: 1px solid;
+  border-radius: 1rem;
+  background: #303030;
+  padding: 1rem;
+  label {
+    display: block;
+  }
+  input,
+  textarea {
+    display: block;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    width: 100%;
+  }
+  button {
+    border: inherit;
+    border-radius: 0.33rem;
+    padding: inherit;
+    letter-spacing: inherit;
+    background: #efefef;
+    color: #101010;
+    text-transform: uppercase;
+  }
+}
+
 .footer {
   margin-top: 50px;
   font-size: 0.75rem;
