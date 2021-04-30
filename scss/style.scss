@@ -143,6 +143,10 @@ img {
 }
 
 #djp-email-form {
+  #req-label {
+    color: $link-primary;
+    text-align: right;
+  }
   border: 1px solid;
   border-radius: 1rem;
   background: #303030;

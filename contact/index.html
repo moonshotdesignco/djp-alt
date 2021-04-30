@@ -36,20 +36,21 @@
       <p>and can also be reached by <br><a href="mailto:dillonjordanphotos@gmail.com" class="upper"><h1>email</h1></a>dillonjordanphotos (@) gmail.com</p>
       <p>or you can reach out directly:</p>
       <form id="djp-email-form" action="https://formspree.io/f/xyylkwgj" method="POST">
+        <p id="req-label">all fields required</p>
         <label>
           Your name
           <br>
-          <input type="text">
+          <input type="text" required>
         </label>
         <label>
           Your email
           <br>
-          <input type="email" name="_replyto">
+          <input type="email" name="_replyto" required>
         </label>
         <label>
           Your message
           <br>
-          <textarea name="message"></textarea>
+          <textarea name="message" rows="8" required></textarea>
         </label>
         <br>
         <button type="submit">Send email</button>

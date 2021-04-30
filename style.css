@@ -170,6 +170,11 @@ img {
   padding: 1rem;
 }
 
+#djp-email-form #req-label {
+  color: #f03010;
+  text-align: right;
+}
+
 #djp-email-form label {
   display: block;
 }
