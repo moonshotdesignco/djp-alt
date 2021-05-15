@@ -34,7 +34,10 @@ a:focus,
 a:active,
 button:hover,
 button:focus,
-button:active {
+button:active,
+#menuBtn:hover,
+#menuBtn:focus,
+#menuBtn:active {
   color: #f05030;
 }
 
