@@ -145,6 +145,40 @@ img {
   }
 }
 
+.gallery-video {
+  width: 240px;
+  height: 135px;
+  margin: auto;
+}
+
+@media (min-width: 360px) {
+  .gallery-video {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 600px) {
+  .gallery-video {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media (min-width: 800px) {
+  .gallery-video {
+    width: 720px;
+    height: 405px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery-video {
+    width: 960px;
+    height: 540px;
+  }
+}
+
 #djp-email-form {
   #req-label {
     color: $link-primary;
